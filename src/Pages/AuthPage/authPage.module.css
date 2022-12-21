@@ -1,0 +1,91 @@
+.form{
+    min-width: 150px; /*задаем ширину блока*/
+    max-width: 300px; /*задаем ширину блока*/
+
+    margin: 0 auto;
+    /*transform: translate(-50%, -50%);*/
+    /*position: absolute;*/
+    /*top: 40%;*/
+    /*left: 50%;*/
+
+    padding:40px 30px 40px 30px;
+}
+.wrapper{
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #2662B3;
+}
+
+.text_box_wrapper{
+   margin: 20px auto;
+   text-align: center;
+}
+
+.text_box{
+    background: #FFFFFF;
+    border: 3px solid #2662B3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.button_enter{
+    text-decoration: none;
+    display: block;
+    background: #2662B3;
+    border-radius: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+    border: 1px solid #2662B3;
+    width: 100px;
+    height: 30px;   
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px auto;
+}
+.button_enter:hover{
+    cursor: pointer;
+   
+}
+
+.error_row{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #2662B3;
+    
+    text-align: center;
+    margin:  -10px auto  0 auto;
+}
+
+.error_row_emty{
+    height:20px;
+    width: 100px;
+    margin-top: -10px;
+
+  
+}
+
+@media(max-width:340px){
+    .text_box{
+        width: 180px;
+    }
+    
+}

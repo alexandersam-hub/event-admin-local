@@ -1,0 +1,45 @@
+.wrapper{
+
+}
+
+.title{
+    margin: 20px auto 10px auto;
+    font-size: 24px;
+    color: #2662B3;
+    font-weight: 800;
+}
+
+.btn_add_score{
+    display: inline-block;
+    border: 3px solid #2662B3;
+    background-color: #2662B3;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+    line-height: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.value_score{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 20px;
+    width: 50px;
+}
+
+.btn_save_score{
+    padding: 5px;
+    text-align: center;
+    border: 3px solid #2662B3;
+    background-color: #2662B3;
+    color: #FFF;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    cursor: pointer;
+}

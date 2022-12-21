@@ -1,0 +1,12 @@
+.wrapper_qr_video{
+    width: 60%;
+    margin:1px auto;
+}
+.wrapper_qr_video_error{
+    width: 60%;
+    margin:1px auto;
+    border: 1px solid red;
+}
+.window{
+    background-color: #61dafb;
+}

@@ -1,0 +1,45 @@
+.wrapper{
+    height: 90px;
+    background-color: #2662B3;
+    text-align: left;
+    font-family: Gilroy;
+    width: 100%;
+    color:#FFF;
+    font-weight: 800;
+}
+
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo_up{
+    font-size: 16.2px;
+}
+
+.logo_down{
+    font-size: 26px;
+}
+
+.title{
+    vertical-align: middle;
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+    width: 210px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 497px) {
+    .title{
+        position: absolute;
+       left: 50%;
+        transform: translate(-50%,0);
+        top: 65px;
+
+    }
+}

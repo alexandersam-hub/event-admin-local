@@ -1,0 +1,44 @@
+.wrapper{
+    margin: 40px;
+    font-family: Gilroy;
+    font-weight: 800;
+
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    color:#285CA6;
+    margin-bottom: 10px;
+}
+.t_title{
+    font-size: 32px;
+    font-weight: 300;
+}
+.t_score{
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+
+}
+.t_score tr{
+    border: 3px solid #285CA6;
+}
+.t_score td{
+    padding: 2px 10px;
+}
+@media (max-width: 430px) {
+    .title{
+        font-size: 30px;
+
+    }
+    .t_title{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .t_score{
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+
+    }
+}

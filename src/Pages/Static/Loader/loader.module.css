@@ -1,0 +1,9 @@
+.loaderElement{
+    width: 200px; /*задаем ширину блока*/
+    height:200px; /*задаем высоту блока*/
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}

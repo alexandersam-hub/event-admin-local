@@ -1,0 +1,38 @@
+.wrapper{
+    height: 90px;
+    background-color: #a2d9f7;
+    text-align: left;
+    font-family: Gilroy;
+    width: 100%;
+    color:#FF0000;
+    font-weight: 800;
+}
+
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.logo_up{
+    font-size: 14px;
+}
+
+.logo_down{
+    font-size: 24px;
+}
+
+.title{
+    vertical-align: middle;
+    display: inline-block;
+    float: right;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FF0000;
+    margin:28px 20px 0 0;
+}
